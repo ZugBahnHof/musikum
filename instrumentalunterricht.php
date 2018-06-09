@@ -316,7 +316,7 @@ include 'modals.php';
     </table>
   </div>
   <div class="modal-footer">
-    <a href="#!" class="modal-close waves-effect waves-<?=$site_color?> -flat">Schließen</a>
+    <a href="#!" class="modal-close waves-effect waves-<?=$site_color?> btn-flat">Schließen</a>
   </div>
 </div>
 <?php
