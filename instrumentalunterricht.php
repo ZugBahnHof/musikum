@@ -5,6 +5,7 @@ $site_color = "amber darken-4";
 $site_color_text = "amber-text text-darken-4";
 $site_color_html = "#ff6f00";
 include 'inc/header.inc.php';
+include 'modals.php';
 ?>
 <div class="container">
   <div class="row">
@@ -34,7 +35,7 @@ include 'inc/header.inc.php';
         </div>
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#" class="right">Klavier</a>
+            <a href="#klavier" class="right waves-effect waves-light  modal-trigger">Klavier</a>
           </div>
         </div>
       </div>
@@ -44,7 +45,7 @@ include 'inc/header.inc.php';
       <div class="card horizontal">
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#">Blockflöte</a>
+            <a href="#blockflöte" class="waves-effect waves-light  modal-trigger">Blockflöte</a>
           </div>
         </div>
         <div class="card-image">
@@ -60,7 +61,7 @@ include 'inc/header.inc.php';
         </div>
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#" class="right">Klarinette</a>
+            <a href="#klarinette" class="right waves-effect waves-light  modal-trigger">Klarinette</a>
           </div>
         </div>
       </div>
@@ -70,7 +71,7 @@ include 'inc/header.inc.php';
       <div class="card horizontal">
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#">Saxophon</a>
+            <a href="#saxophon" class="waves-effect waves-light  modal-trigger">Saxophon</a>
           </div>
         </div>
         <div class="card-image">
@@ -86,7 +87,7 @@ include 'inc/header.inc.php';
         </div>
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#" class="right">Geige</a>
+            <a href="#geige" class="right waves-effect waves-light  modal-trigger">Geige</a>
           </div>
         </div>
       </div>
@@ -96,7 +97,7 @@ include 'inc/header.inc.php';
       <div class="card horizontal">
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#">Cello</a>
+            <a href="#cello" class="waves-effect waves-light  modal-trigger">Cello</a>
           </div>
         </div>
         <div class="card-image">
@@ -112,7 +113,7 @@ include 'inc/header.inc.php';
         </div>
         <div class="card-stacked">
           <div class="card-action">
-            <a href="" class="right">Horn</a>
+            <a href="#horn" class="right">Horn</a>
           </div>
         </div>
       </div>
@@ -122,7 +123,7 @@ include 'inc/header.inc.php';
       <div class="card horizontal">
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#">Trompete</a>
+            <a href="#trompete" class="waves-effect waves-light  modal-trigger">Trompete</a>
           </div>
         </div>
         <div class="card-image">
@@ -138,7 +139,7 @@ include 'inc/header.inc.php';
         </div>
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#" class="right">Gitarre</a>
+            <a href="#gitarre" class="right waves-effect waves-light  modal-trigger">Gitarre</a>
           </div>
         </div>
       </div>
@@ -148,7 +149,7 @@ include 'inc/header.inc.php';
       <div class="card horizontal">
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#">Didgeridoo</a>
+            <a href="#didgeridoo" class="waves-effect waves-light  modal-trigger">Didgeridoo</a>
           </div>
         </div>
         <div class="card-image">
@@ -164,7 +165,7 @@ include 'inc/header.inc.php';
         </div>
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#" class="right">Cajon</a>
+            <a href="#cajon" class="right waves-effect waves-light  modal-trigger">Cajon</a>
           </div>
         </div>
       </div>
@@ -174,7 +175,7 @@ include 'inc/header.inc.php';
       <div class="card horizontal">
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#">Ukulele</a>
+            <a href="#ukulele" class="waves-effect waves-light  modal-trigger">Ukulele</a>
           </div>
         </div>
         <div class="card-image">
@@ -190,7 +191,7 @@ include 'inc/header.inc.php';
         </div>
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#" class="right">Posaune</a>
+            <a href="#posaune" class="right waves-effect waves-light  modal-trigger">Posaune</a>
           </div>
         </div>
       </div>
@@ -200,7 +201,7 @@ include 'inc/header.inc.php';
       <div class="card horizontal">
         <div class="card-stacked">
           <div class="card-action">
-            <a href="#">Querflöte</a>
+            <a href="#querflöte" class="waves-effect waves-light  modal-trigger">Querflöte</a>
           </div>
         </div>
         <div class="card-image">
@@ -209,7 +210,7 @@ include 'inc/header.inc.php';
       </div>
     </div>
 
-    <div class="col s12 m6 l4">
+    <div class="col s12 l4">
       <div class="card horizontal">
         <div class="card-image">
           <i class="material-icons large">euro_symbol</i>
@@ -315,7 +316,7 @@ include 'inc/header.inc.php';
     </table>
   </div>
   <div class="modal-footer">
-    <a href="#!" class="modal-close waves-effect waves-<?=$site_color?> btn-flat">Schließen</a>
+    <a href="#!" class="modal-close waves-effect waves-<?=$site_color?> -flat">Schließen</a>
   </div>
 </div>
 <?php
